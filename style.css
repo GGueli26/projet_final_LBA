@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* les fonts: Cormorant Garamond et Staatliches */
+
+.loremipsum, h1, h2, h3, h4, h5{
+    font-weight: bold;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+}
+/* Header */
+
+header{
+    margin: auto;
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-between;
+}
+header h1{
+    font-family: 'Staatliches', cursive;
+    font-weight: lighter;
+    margin-left: 2rem;
+}
+header ul{
+    display: flex;
+    font-size: 1.2rem;
+}
+header ul li{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+header ul li, header ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+}
+.connexion{
+    color: #b40707;
+}
+.inscription{
+    color: white;
+    margin-left: 2px;
+    background-color: #b40707;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
+}
+.inscription:hover{
+    border-style: solid;
+    border-width: 2px;
+    margin-left: -2px;
+    border-color: #b40707;
+    color: #b40707;
+    background-color: white;
+}
+
+/* Nav menu */
+.menu{
+    margin:auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+/* 1ère section */
+.s1{
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    justify-content: space-between;
+}
+.img1, .d1 h2, .d1 p{
+    width: 90%;
+}
+.img1{
+    margin-bottom: 1rem;
+}
+.d1 p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.grey{
+    color: grey;
+}
+.dflex{
+    display: flex;
+}
+.d1 div h2{
+    margin-left: 1rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+}
+.dmb{
+    margin-bottom: 2rem;
+}
+
+/* hr */
+.hr1{
+    margin:auto;
+    border-style: solid;
+    border-color: #e7e7e7;
+    background-color: #e7e7e7;
+    margin-bottom: 1rem;
+}
+.hr2{
+    border-style: solid;
+    border-color: #e7e7e7;
+    background-color: #e7e7e7;
+    margin-bottom: 1rem;
+}
+
+/* Div inscription */
+.dinscription{
+    margin:auto;
+    background-color: #f1f1f1;
+    margin-bottom: 5rem;
+}
+.dinscription h3, .dinscription p, .dinscription form{
+    padding-left: 30%;
+}
+.dinscription p{
+    font-size: 1.2rem;
+}
+.dinscription h3{
+    font-size: 3rem;
+}
+.dinscription p{
+    margin-bottom: 1rem;
+}
+.dinscription form input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+    border-width: 0.1rem;
+    background-color: inherit;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+}
+.dinscription form button{
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    margin-left: 1rem;
+    background-color: #3b3b3b;
+    color: white;
+    border-style: none;
+    border-radius: 0.5rem;
+}
+
+/* Section 2 */
+
+.s2{
+    display: flex;
+    justify-content: space-between;
+}
+.sd1{
+    width: 78%;
+}
+.sd2{
+    width: 20%;
+}
+.divflex{
+    display: flex;
+    align-items: center;
+}
+.sd1 h4{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.sd2 h4{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.divflex div h5{
+    font-size: 1.35rem;
+    margin-bottom: 1rem;
+}
+.flexp{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.num{
+    margin-right: 2rem;
+    font-size: 3rem;
+}
+.numdiv h5{
+    font-size: 1.35rem;
+}
